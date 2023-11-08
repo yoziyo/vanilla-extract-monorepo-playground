@@ -1,0 +1,18 @@
+{
+  "name": "@kpds/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kpds/css": "workspace:^",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vanilla-extract/css": "^1.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
