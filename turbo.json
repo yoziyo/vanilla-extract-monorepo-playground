@@ -1,0 +1,13 @@
+{
+  "pipeline": {
+    "clean": {},
+    "build": {
+      "dependsOn": ["clean"],
+      "outputs": [".next/**", "!.next/cache/**", "dist"]
+    },
+    "dev": {
+      "cache": false,
+      "dependsOn": ["clean"]
+    }
+  }
+}

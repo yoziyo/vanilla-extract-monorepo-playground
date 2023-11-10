@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "turbo clean build",
+    "build:react": "turbo clean build --filter=@kpds/react",
+    "dev:react": "turbo clean dev --filter=@kpds/react",
+    "docs:react": "turbo dev --filter=@kpds/docs/react",
+    "clean": "turbo run clean",
+    "dev": "turbo run dev",
+    "preinstall": "pnpm dlx only-allow pnpm"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,7 +22,13 @@
   "devDependencies": {
     "@kurly/prettier-config": "^0.0.0",
     "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "turbo": "^1.10.16",
     "typescript": "^5.2.2"
   },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "prettier": "@kurly/prettier-config"
 }
