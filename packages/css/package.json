@@ -9,6 +9,7 @@
   "license": "ISC",
   "devDependencies": {
     "@kpds/tokens": "workspace:^",
-    "@vanilla-extract/css": "^1.13.0"
+    "@vanilla-extract/css": "^1.13.0",
+    "@vanilla-extract/recipes": "^0.5.1"
   }
 }

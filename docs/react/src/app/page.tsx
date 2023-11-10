@@ -6,6 +6,8 @@ export default function Home() {
     <Box>
       <h1>Foundation</h1>
       <Link href={'/foundation/color'}>color palette</Link>
+      <h1>component</h1>
+      <Link href={'/component/button'}>Button</Link>
     </Box>
   );
 }

@@ -1,4 +1,3 @@
-
 export const gray = {
   gray900: '#222222',
   gray800: '#565E67',
@@ -98,8 +97,44 @@ export const white = {
   white: '#fff',
 };
 
-export const danger = {
-  danger: red.red900,
+export const mainSet = {
+  primary: purple.purple800,
+  primaryContainer: purple.purple50,
+  secondary: gray.gray900,
+  secondaryContainer: gray.gray100,
+  tertiary: orange.orange800,
+  tertiaryContainer: orange.orange50,
+  danger: red.red800,
+  dangerContainer: red.red50,
+  complete: green.green800,
+  completeContainer: green.green50,
+};
+
+export const textSet = {
+  primary: gray.gray900,
+  secondary: gray.gray800,
+  tertiary: gray.gray700,
+  quaternary: gray.gray600,
+  disabled: gray.gray500,
+  inverse: white.white,
+};
+
+export const backgroundSet = {
+  background1: white.white,
+  background2: gray.gray50,
+  background3: gray.gray100,
+  background4: gray.gray200,
+  background5: gray.gray400,
+};
+
+export const lineSet = {
+  line1: gray.gray200,
+  line2: gray.gray400,
+};
+
+export const pointSet = {
+  point1: purple.purple500,
+  point2: purple.purple700,
 };
 
 export const Colors = {
@@ -108,9 +143,13 @@ export const Colors = {
   ...gray,
   ...purple,
   ...orange,
-  ...danger,
   ...red,
   ...green,
   ...blue,
   ...yellow,
+  main: mainSet,
+  text: textSet,
+  background: backgroundSet,
+  line: lineSet,
+  pointSet: pointSet,
 };
