@@ -1,3 +1,2 @@
-import { vars } from './theme.css';
-
-export default { vars };
+import { KPDSVars, KPDSTheme } from './theme.css';
+export default { KPDSVars, KPDSTheme };
