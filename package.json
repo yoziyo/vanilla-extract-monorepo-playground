@@ -28,7 +28,7 @@
   },
   "workspaces": [
     "packages/*",
-    "apps/*"
+    "docs/*"
   ],
   "prettier": "@kurly/prettier-config"
 }

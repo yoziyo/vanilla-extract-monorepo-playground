@@ -24,7 +24,7 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
-  apps/docs-react:
+  docs/react:
     dependencies:
       '@kpds/react':
         specifier: workspace:^
