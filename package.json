@@ -9,8 +9,7 @@
     "dev:react": "turbo dev --filter=@kpds/react",
     "docs:react": "turbo dev --filter=@kpds/docs/react",
     "clean": "turbo clean",
-    "dev": "turbo dev",
-    "preinstall": "pnpm dlx only-allow pnpm"
+    "dev": "turbo dev"
   },
   "keywords": [],
   "author": "",
